@@ -1,4 +1,4 @@
-<p align="center"><h1 font="10rem">30 Days JavaScript Challenge</h1>
+<p align="center"><h1 font="10rem" align="center">30 Days JavaScript Challenge</h1>
 Welcome to the 30 Days JavaScript Challenge! This repository is designed to help you improve your JavaScript skills through daily coding exercises. Each day, you'll tackle a new challenge to enhance your understanding of core JavaScript concepts.
 
 ![First loading Page](https://github.com/ashish8513/30-days-javascript-leetCode-challenges/blob/main/1day.png)
