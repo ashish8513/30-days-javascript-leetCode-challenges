@@ -53,6 +53,8 @@ Collaboration: Engage with the community for support and feedback.
   <img src="https://github.com/ashish8513/30-days-javascript-leetCode-challenges/blob/main/2nd%20days.png" alt="Visual Studio" width="600"/>
 </p>
 
+![Second loading Page](https://github.com/ashish8513/30-days-javascript-leetCode-challenges/blob/main/30%20png.png)
+
 
 ## Contact
 
