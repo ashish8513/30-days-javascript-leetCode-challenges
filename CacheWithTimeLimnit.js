@@ -7,3 +7,29 @@
 // get(key): if an un-expired key exists, it should return the associated value. Otherwise it should return -1.
 
 // count(): returns the count of un-expired keys.
+
+
+TimeLimitedCache.prototype.set = function (key, value, duration) {
+    let result = false
+    if (this.cache.hasOwnProperty(key)) {
+        result = true
+
+        clearTimeout(this.cache[key].timer)
+    }
+    let ref = this
+    let timeoutId = setTimemout(() => {
+        delete ref.cache[key]
+    }, duration)
+    this.cache[key] = { val: value, timer: timeoutId }
+    return result
+}
+
+TimeLimitedCache.prototype.get = function (key) {
+    if (!this.cache.hasOwnProperty(key)) {
+        return -1
+    }
+    return this.cache[key].val
+}
+TimeLimitedCache.prototype.count = function () {
+    return Object.keys(this.cache).length
+}
