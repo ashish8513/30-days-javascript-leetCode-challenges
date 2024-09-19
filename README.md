@@ -54,6 +54,10 @@ Collaboration: Engage with the community for support and feedback.
 </p>
 
 ![Second loading Page](https://github.com/ashish8513/30-days-javascript-leetCode-challenges/blob/main/30%20png.png)
+4th day I have found new error 
+<p align="center">
+  <img src="https://github.com/ashish8513/30-days-javascript-leetCode-challenges/blob/main/erroe.png" alt="Visual Studio" width="600"/>
+</p>
 
 
 ## Contact
