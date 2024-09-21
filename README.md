@@ -5,7 +5,7 @@ must visit this link https://leetcode.com/studyplan/30-days-of-javascript
 
 ![First loading Page](https://github.com/ashish8513/30-days-javascript-leetCode-challenges/blob/main/1day.png)
 
-Challenge Overview
+Challenge Overviews
 Day 1: Basic Syntax
 Task: Write a function to print "Hello, World!" to the console.
 Objective: Understand basic syntax and function creation.
